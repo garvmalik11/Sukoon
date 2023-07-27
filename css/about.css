@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --dark-green: #1E5631;
+    --lime-green: #A4DE02;
+    --dark-lime-green: #76BA1B;
+    --smooth-green: #4C9A2A;
+    --light-green: #ACDF97;
+    --leaf-green: #68BB59;
+    --ts: 1.3rem;
+    --motto: 9vmin;
+    --motto-2: 2rem;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #caf0f8;
+    overflow-x: hidden;
+    font-size: var(--ts);
+    font-family: "Montserrat";
+}
+/* -- Custom Scrollbar Styling -- */
+
+::-webkit-scrollbar{
+    width: 1vw;
+    background: #90e0ef;
+    border-radius: 2px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #023e8a;
+    border-radius: 4px;
+    background-clip: padding-box;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #59738288; 
+}
+/*---------HEADER STYLING--------*/
+.header{
+    background-color: #03045e;
+    width: 99.7%;
+    height: 12vmin;
+    display: flex;
+    flex-direction: row;
+    color: var(--light-green);
+    border-radius: 0px 0px 5px 5px;
+
+    
+}
+.logo{
+    width: 10vmin;
+    height: 10vmin;
+    border: 2px solid var(--dark-green);
+    border-radius: 50%;
+    margin: 0.4% 0% 0% 2%;
+}
+.title{
+    font-family: "Montserrat";
+    margin-top: 0.1%;
+    font-size: var(--motto);
+    text-shadow: 5px 5px 7px #000;
+    color: #90e0ef;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------MAIN BODY STYLING---------*/
+.front{
+    width: 90vw ;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.front h1, h2{
+    margin-left: 5%;
+}
+.front p{
+    margin-left: 3%;  
+}
+
+/*----------FOOTER STYLING----------*/
+.footer-sec{
+    width: 99.5%;
+    margin-bottom: -1%;
+    font-size: var(--ts);
+    font-family: "montserrat";
+    background-color: #023e8a;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px #000;
+    font-family: "montserrat";
+}
+.footer-1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "montserrat";
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
