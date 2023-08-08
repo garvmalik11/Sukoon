@@ -37,7 +37,7 @@ body{
     margin-right: auto;
     width: 10vmin;
     height: 10vmin;
-    border: 2px solid rgb(137, 211, 137);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
     margin: 0.4% 0% 0% 2%;
     cursor: pointer;
@@ -113,10 +113,6 @@ body{
     font-family: "montserrat";
 }
 
-.formhead{
-    font-family: "Monsterrat";
-
-}
 .start{
     background-color: #0077b6;
     height: 5vw;
@@ -214,12 +210,16 @@ body{
     text-shadow: 0.3px 0.3px #000;
     font-family: "Montserrat";
 }
+#name{
+    padding :10px
+}
 .name{
     background-color: aliceblue;
     border-radius: 10px;
     padding: 7px;
     border: none;
-    box-shadow: 2px 2px 10px #000;
+    box-shadow: 1px 1px 5px #000;
+    font-family: "montserrat";
     
 }
 .submit-btn{
@@ -241,7 +241,6 @@ body{
 .submit-btn:hover{
     cursor:pointer;
     background-color: #0076b69c;
-    /* background-color: #89c23d; */
     box-shadow: 7px 7px 10px #000000;
     transform: scale(1.1);
 }
@@ -437,6 +436,7 @@ body{
         display: flex;
         align-content: flex-start;
     }
+    
     .name{
         width: 60%;
     }

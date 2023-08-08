@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --dark-green: #1E5631;
-    --lime-green: #A4DE02;
-    --dark-lime-green: #76BA1B;
-    --smooth-green: #4C9A2A;
-    --light-green: #ACDF97;
-    --leaf-green: #68BB59;
+
     --ts: 1.3rem;
     --motto: 9vmin;
     --motto-2: 2rem;
